@@ -127,10 +127,10 @@ function esVocal(letra) {
 function evaluarNumeros(a, b, c) {
     if (a > 0 && b > 0 && c > 0) { // Verifica si todos los números son positivos
         console.log("Todos son positivos");
-    } else if (a < 0 || b < 0 || c < 0) { // Verifica si al menos uno es negativo
-        console.log("Al menos uno es negativo");
-    } else { // Si ninguno es positivo, todos son negativos
+    } else if (a < 0 && b < 0 && c < 0) { 
         console.log("Todos son negativos");
+    } else { 
+        console.log("Al menos uno es negativo");
     }
 }
 
